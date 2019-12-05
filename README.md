@@ -47,7 +47,7 @@ In this case, five models will be trained and evaluated with each fold given a c
 
 ``` ./clustering.py ```
 
-** ROC and PR curves.** Plots of the ROC and PR curves are generated for the ratings for the saved models using 5-fold cross validation. Plots are saved in ./roc_plots/ and ./pr_plots/
+**ROC and PR curves.** Plots of the ROC and PR curves are generated for the ratings for the saved models using 5-fold cross validation. Plots are saved in ./roc_plots/ and ./pr_plots/
 
 ``` ./roc_curves.py ```
 ``` ./pr_curves.py ```
