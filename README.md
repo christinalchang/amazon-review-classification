@@ -9,7 +9,7 @@ This program will use Artificial Neural Network (ANN) to predict overall star ra
 + `pip3 install gensim`
 + `pip3 install scikit-learn`
 
-### How to use reviewClassifier
+### Overview
 **Obtaining the master random data over 28 categories of Amazon reviews.** 
 Download the zipped data files, except the Appliances category, of the reviews from https://nijianmo.github.io/amazon/index.html. Make sure to modify the directory reference to point to the locations where the zipped files are. Create another directory, `large_data` to hold particularly large files like the Books_5.json.gz because it's over 6GB and would take too long to process. 
 
@@ -42,7 +42,7 @@ In this case, five models will be trained and evaluated with each fold given a c
 
 ``` ./run_grid_search.py ```
 
-#### Data Visualization
+### Data Visualization
 **Clustering.** The reviews are clustered to see if reviews with the same rating would be placed into the same cluster. To visualize the clusters from K-means, compare two dimensionality reduction methods, Principal Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (t-SNE).
 
 ``` ./clustering.py ```
