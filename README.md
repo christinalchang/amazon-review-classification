@@ -1,6 +1,8 @@
 ### What is this for?
 This program will use Artificial Neural Network (ANN) to predict overall star rating from Amazon review texts. Both tf-idf and Doc2Vec as feature selection methods will be compared against each other, to see if data sparsity affects classification accuracy.
 
+See the project report [here](https://github.com/christinalchang/amazon-review-classification/blob/master/Predicting%20Amazon%20Product%20Ratings%20with%20Review%20Analytics.pdf).
+
 ### Installation
 + `pip3 install pandas`
 + `pip3 install numpy`
